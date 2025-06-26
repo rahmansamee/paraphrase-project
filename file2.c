@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <time.h>
 #include "synonyms.h"
-#include "dictionaire.c"
-#include "phraseio.c"
+#include "dictionaire.h"
+#include "phraseio.h"
 
 #define MAX_SYNONYMS 5
 #define MAX_WORDS 1000
@@ -158,7 +158,7 @@ void saveText(char words[][MAX_WORD_PHRASE_LEN], int wordCount)
             if (isSentenceEndChar(lastChar) && isalpha(words[i][0])) {
                 fprintf(fptr, " ");
             }
-            // Else: word–word or word–punctuation
+            // Else: wordâ€“word or wordâ€“punctuation
             else if (isWord(words[i - 1]) || isWord(words[i])) {
                 fprintf(fptr, " ");
             }

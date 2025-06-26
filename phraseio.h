@@ -4,8 +4,6 @@
   #include "synonyms.h"
 
   extern Phrase phrases[];
-
   extern int PHRASE_DICT_SIZE;
 
-
-#endif
+#endif // PHRASEIO_H

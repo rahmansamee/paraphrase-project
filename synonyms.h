@@ -13,6 +13,9 @@ typedef struct {
     int count;
 } Synonyms;
 
+extern Synonyms dictionary[];
+extern int DICT_SIZE;
+
 
 typedef struct {
     const char *original;

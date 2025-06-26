@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <time.h>
 #include "synonyms.h"
-#include "dictionaire.h"
-#include "phraseio.h"
+#include "dictionaire.c"
+#include "phraseio.c"
 
 #define MAX_SYNONYMS 5
 #define MAX_WORDS 1000

@@ -13,8 +13,6 @@ typedef struct {
     int count;
 } Synonyms;
 
-extern Synonyms dictionary[];
-extern int DICT_SIZE;
 
 typedef struct {
     const char *original;
@@ -23,7 +21,5 @@ typedef struct {
     int word_len;
 } Phrase;
 
-extern Phrase phrases[];
-extern int PHRASE_DICT_SIZE;
 
 #endif // SYNONYMS_H

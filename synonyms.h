@@ -13,19 +13,12 @@ typedef struct {
     int count;
 } Synonyms;
 
-extern Synonyms dictionary[];
-extern int DICT_SIZE;
-
-
 typedef struct {
     const char *original;
     const char *synonyms[MAX_SYNONYMS];
     int synonym_count;
     int word_len;
 } Phrase;
-
-extern Phrase phrases[];
-extern int PHRASE_DICT_SIZE;
 
 
 #endif // SYNONYMS_H

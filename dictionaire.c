@@ -1206,7 +1206,7 @@ Synonyms dictionary[] = {
 {"raise", {"lift", "increase", "elevate", "boost", "promote"}, 5},
 {"pass", {"go by", "move past", "cross", "transfer", "advance","bypass"}, 6},
 {"sell", {"market", "trade", "offer", "exchange", "deal"}, 5},
-{"require", {"need", "demand", "call for", "necessitate", "ask for"}, 5}
+{"require", {"need", "demand", "call for", "necessitate", "ask for"}, 5},
 {"break", {"shatter", "crack", "fracture", "split", "smash"}, 5},
 {"stay", {"remain", "linger", "wait", "persist", "dwell"}, 5},
 {"catch", {"grab", "seize", "capture", "snatch", "take"}, 5},
@@ -1282,7 +1282,7 @@ Synonyms dictionary[] = {
 {"mix", {"blend", "stir", "combine", "merge", "whisk"}, 5},
 {"separate", {"divide", "split", "disconnect", "detach", "isolate"}, 5},
 {"join", {"connect", "link", "combine", "merge", "unite"}, 5},
-{"divide", {"split", "separate", "partition", "break up", "distribute"}, 5}
+{"divide", {"split", "separate", "partition", "break up", "distribute"}, 5},
 {"depart", {"leave", "exit", "go", "withdraw", "retreat"}, 5},
 {"achieve", {"accomplish", "attain", "realize", "complete", "fulfill"}, 5},
 {"attend", {"go to", "visit", "join", "take part", "participate"}, 5},
@@ -1336,7 +1336,7 @@ Synonyms dictionary[] = {
 {"focus", {"concentrate", "center", "target", "highlight", "emphasize"}, 5},
 {"follow", {"pursue", "chase", "obey", "track", "adhere to"}, 5},
 {"forget", {"fail to remember", "neglect", "overlook", "dismiss", "lose track of"}, 5},
-{"stalk", {"chase", "track", "pursue", "search for", "hunt"}, 5}
+{"stalk", {"chase", "track", "pursue", "search for", "hunt"}, 5},
 //2nd day
 {"forgive", {"pardon", "excuse", "absolve", "release", "overlook"}, 5},
 {"gain", {"obtain", "acquire", "get", "secure", "earn"}, 5},
@@ -1347,7 +1347,7 @@ Synonyms dictionary[] = {
 {"hate", {"dislike", "despise", "loathe", "detest", "resent"}, 5},
 {"hope", {"wish", "expect", "anticipate", "dream", "aspire"}, 5},
 {"hug", {"embrace", "hold", "cuddle", "clutch", "squeeze"}, 5},
-{"hunt", {"chase", "track", "pursue", "search for", "stalk"}, 5}
+{"hunt", {"chase", "track", "pursue", "search for", "stalk"}, 5},
 {"identify", {"recognize", "spot", "name", "detect", "acknowledge"}, 5},
 {"ignore", {"disregard", "overlook", "neglect", "skip", "brush off"}, 5},
 {"imagine", {"visualize", "envision", "picture", "conceive", "fantasize"}, 5},
@@ -1407,7 +1407,7 @@ Synonyms dictionary[] = {
 {"present", {"show", "display", "introduce", "offer", "submit"}, 5},
 {"press", {"push", "squeeze", "urge", "force", "apply"}, 5},
 {"pretend", {"fake", "feign", "simulate", "act", "pose"}, 5},
-{"prevent", {"stop", "avoid", "hinder", "block", "prohibit"}, 5}
+{"prevent", {"stop", "avoid", "hinder", "block", "prohibit"}, 5},
 {"asking", {"inquiring", "questioning", "interrogating", "probing", "consulting"}, 5},
 {"building", {"constructing", "assembling", "erecting", "creating", "fabricating"}, 5},
 {"calling", {"phoning", "ringing", "contacting", "summoning", "dialing"}, 5},
@@ -1439,7 +1439,7 @@ Synonyms dictionary[] = {
 {"going", {"moving", "departing", "traveling", "leaving", "heading"}, 5},
 {"growing", {"developing", "expanding", "increasing", "sprouting", "maturing"}, 5},
 {"hanging", {"suspending", "dangling", "draping", "looping", "hooking"}, 5},
-{"happening", {"occurring", "taking place", "transpiring", "emerging", "arising"}, 5}
+{"happening", {"occurring", "taking place", "transpiring", "emerging", "arising"}, 5},
 {"hating", {"despising", "disliking", "detesting", "loathing", "resenting"}, 5},
 {"hearing", {"listening", "perceiving", "attending", "noticing", "detecting"}, 5},
 {"helping", {"assisting", "supporting", "aiding", "guiding", "serving"}, 5},
@@ -1482,7 +1482,7 @@ Synonyms dictionary[] = {
 {"marrying", {"wedding", "uniting", "espousing", "joining", "tying the knot"}, 5},
 {"matching", {"pairing", "equaling", "aligning", "fitting", "coordinating"}, 5},
 {"measuring", {"gauging", "quantifying", "assessing", "evaluating", "calculating"}, 5},
-{"meeting", {"encountering", "greeting", "joining", "seeing", "coming across"}, 5}
+{"meeting", {"encountering", "greeting", "joining", "seeing", "coming across"}, 5},
 {"hating", {"despising", "disliking", "detesting", "loathing", "resenting"}, 5},
 {"hearing", {"listening", "perceiving", "attending", "noticing", "detecting"}, 5},
 {"helping", {"assisting", "supporting", "aiding", "guiding", "serving"}, 5},
@@ -1525,7 +1525,7 @@ Synonyms dictionary[] = {
 {"marrying", {"wedding", "uniting", "espousing", "joining", "tying the knot"}, 5},
 {"matching", {"pairing", "equaling", "aligning", "fitting", "coordinating"}, 5},
 {"measuring", {"gauging", "quantifying", "assessing", "evaluating", "calculating"}, 5},
-{"meeting", {"encountering", "greeting", "joining", "seeing", "coming across"}, 5}
+{"meeting", {"encountering", "greeting", "joining", "seeing", "coming across"}, 5},
 {"asked", {"inquired", "questioned", "queried", "interrogated", "consulted"}, 5},
 {"built", {"constructed", "assembled", "erected", "created", "fabricated"}, 5},
 {"called", {"phoned", "contacted", "summoned", "dialed", "named"}, 5},
@@ -1546,7 +1546,7 @@ Synonyms dictionary[] = {
 {"enjoyed", {"liked", "relished", "savored", "loved", "appreciated"}, 5},
 {"explained", {"described", "clarified", "elaborated", "interpreted", "defined"}, 5},
 {"fell", {"dropped", "tumbled", "plummeted", "slipped", "collapsed"}, 5},
-{"felt", {"sensed", "experienced", "noticed", "perceived", "touched"}, 5}
+{"felt", {"sensed", "experienced", "noticed", "perceived", "touched"}, 5},
 {"found", {"discovered", "located", "uncovered", "identified", "spotted"}, 5},
 {"gave", {"offered", "presented", "donated", "provided", "granted"}, 5},
 {"got", {"received", "obtained", "acquired", "earned", "collected"}, 5},
@@ -1589,7 +1589,7 @@ Synonyms dictionary[] = {
 {"bought", {"purchased", "acquired", "obtained", "got", "secured"}, 5},
 {"brought", {"carried", "delivered", "transported", "fetched", "transferred"}, 5},
 {"caught", {"grabbed", "seized", "snatched", "trapped", "captured"}, 5},
-{"chose", {"selected", "picked", "preferred", "opted", "elected"}, 5}
+{"chose", {"selected", "picked", "preferred", "opted", "elected"}, 5},
 {"changed", {"modified", "altered", "transformed", "converted", "adjusted"}, 5},
 {"cleaned", {"washed", "wiped", "scrubbed", "sanitized", "polished"}, 5},
 {"closed", {"shut", "sealed", "locked", "barred", "fastened"}, 5},
@@ -1676,7 +1676,7 @@ Synonyms dictionary[] = {
 {"bought", {"purchased", "acquired", "obtained", "secured", "got"}, 5},
 {"brought", {"carried", "delivered", "transported", "fetched", "conveyed"}, 5},
 {"caught", {"seized", "grabbed", "snatched", "trapped", "captured"}, 5},
-{"chose", {"selected", "picked", "opted", "preferred", "elected"}, 5}
+{"chose", {"selected", "picked", "opted", "preferred", "elected"}, 5},
 {"accepted", {"agreed", "approved", "received", "embraced", "acknowledged"}, 5},
 {"achieved", {"accomplished", "attained", "reached", "succeeded", "fulfilled"}, 5},
 {"acted", {"performed", "behaved", "operated", "functioned", "played"}, 5},
@@ -1740,7 +1740,7 @@ Synonyms dictionary[] = {
 {"earned", {"gained", "obtained", "received", "acquired", "won"}, 5},
 {"edited", {"revised", "modified", "corrected", "altered", "updated"}, 5},
 {"educated", {"taught", "instructed", "trained", "mentored", "coached"}, 5},
-{"employed", {"hired", "used", "engaged", "utilized", "applied"}, 5}
+{"employed", {"hired", "used", "engaged", "utilized", "applied"}, 5},
 {"encouraged", {"supported", "motivated", "inspired", "cheered", "urged"}, 5},
 {"entered", {"came in", "accessed", "joined", "penetrated", "arrived"}, 5},
 {"escaped", {"fled", "ran away", "got away", "evaded", "avoided"}, 5},
@@ -1783,7 +1783,7 @@ Synonyms dictionary[] = {
 {"meant", {"signified", "intended", "represented", "stood for", "denoted"}, 5},
 {"met", {"encountered", "greeted", "joined", "saw", "came across"}, 5},
 {"moved", {"relocated", "shifted", "transferred", "progressed", "changed"}, 5},
-{"needed", {"required", "wanted", "desired", "lacked", "demanded"}, 5}
+{"needed", {"required", "wanted", "desired", "lacked", "demanded"}, 5},
 
 {"head", {"skull", "cranium", "noggin", "dome", "pate"}, 5},
 {"hair", {"locks", "tresses", "mane", "strands", "curls"}, 5},

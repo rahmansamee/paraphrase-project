@@ -3,7 +3,5 @@
 
    #include "synonyms.h"
 
-   extern Synonyms dictionary[];
-   extern int DICT_SIZE;
 
 #endif // DICTIONAIRE_H

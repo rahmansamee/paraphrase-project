@@ -5,7 +5,7 @@
 #include <time.h>
 #include "synonyms.h"
 
-#define MAX_SYNONYMS 5
+#define MAX_SYNONYMS 6
 #define MAX_WORDS 1000
 #define MAX_WORD_PHRASE_LEN 100
 

@@ -23,5 +23,8 @@ typedef struct {
     int word_len;
 } Phrase;
 
+  extern Phrase phrases[];
+  extern int PHRASE_DICT_SIZE;
+
 
 #endif // SYNONYMS_H

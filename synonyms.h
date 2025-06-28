@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 #define MAX_WORD_PHRASE_LEN 100
-#define MAX_SYNONYMS 5
+#define MAX_SYNONYMS 6
 #define MAX_IDIOM_LEN 10
 
 typedef struct {

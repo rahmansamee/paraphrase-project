@@ -34,6 +34,16 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="phraseio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="phraseio.h" />
+		<Unit filename="dictionaire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dictionaire.h" />
+		<Unit filename="synonyms.h" />
+
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

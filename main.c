@@ -4,8 +4,10 @@
 #include <ctype.h>
 #include <time.h>
 #include "synonyms.h"
+//#include "dictionaire.h"
+//#include "phraseio.h"
 
-#define MAX_SYNONYMS 6
+#define MAX_SYNONYMS 5
 #define MAX_WORDS 1000
 #define MAX_WORD_PHRASE_LEN 100
 
@@ -19,6 +21,8 @@ int isSentenceEndChar(char c);
 char* getSynonym (const char *word);
 void toLowerCase(const char *original,char *lower);
 void needCapital(const char *original, char *replaced);
+char *phrasesCapital(char *updatedPhrase, char *found);
+
 
 int main() {
     srand(time(0));
@@ -92,18 +96,22 @@ void wordProcess(char words[][MAX_WORD_PHRASE_LEN], int *wordCountPtr)
                     break;
                 }
 
-                char lower[MAX_WORD_PHRASE_LEN];
-                toLowerCase(words[i + k], lower);
-                strcat(found, lower);
+                //char lower[MAX_WORD_PHRASE_LEN];
+                //toLowerCase(words[i + k], lower);
+                strcat(found, words[i + k]);
                 if (k < phrases[p].word_len - 1) strcat(found, " ");
             }
 
-            if (match && strcmp(found, phrases[p].original) == 0) {
+            if (match && strcasecmp(found, phrases[p].original) == 0) {
                 int randIndex = rand() % phrases[p].synonym_count;
                 char *replacement = phrases[p].synonyms[randIndex];
 
-                strncpy(words[i], replacement, MAX_WORD_PHRASE_LEN - 1);
-                words[i][MAX_WORD_PHRASE_LEN - 1] = '\0';
+                char updatedPhrase[MAX_WORD_PHRASE_LEN* MAX_IDIOM_LEN]="";  //empty null terminated string
+                strncpy(updatedPhrase, replacement, strlen(replacement));
+                char *outPhrase= phrasesCapital(updatedPhrase, found);
+
+                strncpy(words[i], outPhrase, strlen(outPhrase));
+                //words[i][MAX_WORD_PHRASE_LEN - 1] = '\0';
 
                 int shift = phrases[p].word_len - 1;
                 for (int j = i + 1; j + shift < wordCount; j++) {
@@ -156,7 +164,7 @@ void saveText(char words[][MAX_WORD_PHRASE_LEN], int wordCount)
             if (isSentenceEndChar(lastChar) && isalpha(words[i][0])) {
                 fprintf(fptr, " ");
             }
-            // Else: wordâ€“word or wordâ€“punctuation
+            // Else: word–word or word–punctuation
             else if (isWord(words[i - 1]) || isWord(words[i])) {
                 fprintf(fptr, " ");
             }
@@ -210,5 +218,16 @@ void needCapital(const char *original, char *replaced)
             replaced[0] = toupper(replaced[0]);
         }
     }
+}
+
+char *phrasesCapital(char *updatedPhrase, char *found)
+{
+    //handling capitalization of phrases' first letter
+    if(isupper(found[0]))
+        updatedPhrase[0]=toupper(updatedPhrase[0]);
+    if(islower(found[0]) && updatedPhrase[0]!='I')
+        updatedPhrase[0]=tolower(updatedPhrase[0]);
+
+    return updatedPhrase;
 }
 
